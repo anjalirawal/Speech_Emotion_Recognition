@@ -1,0 +1,10 @@
+streamlit
+streamlit-webrtc
+numpy
+soundfire
+librosa
+torch
+torchaudio
+speechbrain
+pydub
+av
