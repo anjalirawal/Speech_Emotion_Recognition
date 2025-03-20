@@ -1,6 +1,7 @@
 streamlit
 streamlit-webrtc
 numpy
+transformers
 soundfile
 librosa
 torch
