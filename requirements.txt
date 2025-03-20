@@ -1,7 +1,7 @@
 streamlit
 streamlit-webrtc
 numpy
-soundfire
+soundfile
 librosa
 torch
 torchaudio
