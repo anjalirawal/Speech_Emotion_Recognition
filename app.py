@@ -20,7 +20,7 @@ from pydub import AudioSegment
 @st.cache_resource
 def load_local_model():
     model = foreign_class(
-        source="./local_model",  # Load from local directory instead of Hugging Face
+        source="speechbrain/emotion-recognition-wav2vec2-IEMOCAP",  # Load from local directory instead of Hugging Face
         pymodule_file="custom_interface.py",
         classname="CustomEncoderWav2vec2Classifier"
     )
